@@ -1,0 +1,77 @@
+#variety,
+#makeOrder {
+    padding: 3%;
+}
+
+#order {
+    background: url('images/image13.jpg') no-repeat fixed 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    flex-direction: column;
+    display:flex;
+    font-size: 18px;
+    
+    
+}
+
+.orderText {
+    background-color: navy;
+    color: white;
+    padding: 20px;
+}
+
+.form,
+.displayOrder {
+    padding: 4%;
+    box-sizing: border-box;
+    margin-top: 20px;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+   
+}
+
+label {
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.location,
+.displayOrder {
+    display: none;
+
+}
+
+th {
+    border: 1px solid rgb(15, 86, 219);
+}
+td{
+    color:white;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+#bill {
+    height: 30px;
+    font-size: X-large;
+    font-weight: 700;
+
+}
+ 
+.now{
+  margin-left: 25%;
+}
+
+
+@media screen and (max-width: 767px) {
+    .now {
+        margin-left: 0;
+    }
+  }
+  

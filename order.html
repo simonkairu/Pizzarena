@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>     
+    <link href="https://fonts.googleapis.com/css2?family=Ballet&family=Lovers+Quarrel&family=Pacifico&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="order.css">    
+    <title>Order</title>
+</head>
+<body>
+    
+    <!--Start of  Order section -->
+    <section id="order">
+        <div id="makeOrder" class="container">
+            <div class="row form">
+                <h2 class="text-center">MAKE ORDER</h2>
+                <div class="col-md-6 now">
+                    <div class="form-group">
+                        <div class="form-group">
+                            <label for="name">Full name</label>
+                            <input type="text" class="form-control form-select-lg mb-3" name="" id="name">
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="name">Quantity</label>
+                            <input type="number" class="form-control form-select-lg mb-3" name="" id="quantity">
+    
+                        </div>
+                  
+                        <label for="name">Pizza Type</label>
+                        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg" id="type">
+                            
+                            <option value="0">Garlic butter prawns and chilli</option>
+                            <option value="1">Sausage & Kale</option>
+                            <option value="2">Capricciosa </option>
+                            <option value="3">Quattro Formaggio </option>
+                            <option value="4">Hawaiian</option>
+                            <option value="5">Periperi</option>
+                            <option value="6">Cheese and garlic pizza</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="name">Pizza Size</label>
+                        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg" id="size">
+                           
+                            <option value="0">Small</Small></option>
+                            <option value="1">Medium</option>
+                            <option value="2">Large</option>
+                        </select>
+                    </div>
+
+                    
+                    <div class="form-group">
+                        <label for="name">Pizza Crust</label>
+                        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg" id="crust">
+                            <option value="0">Crispy</Small></option>
+                            <option value="1">Stuffed</option>
+                            <option value="2">Gluten free</option>
+                        </select>
+                    </div>
+
+  
+                    <div class="form-group">
+                        <label for="name">Pizza Toppings</label>
+                      <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg" id="topping" multiple>
+                           
+                            <option value=" 0">Olive</Small></option>
+                            <option value=" 1">Sausage</option>
+                            <option value=" 2">Bacon</option>
+                            <option value=" 3">Green Pepper</option>
+                        </select>
+   
+                
+
+                    </div>
+
+                    <div class="col-md-6">
+                   
+                   
+                        <div class="form-group radioBtn">
+                            <label for="deliver">Delivery or Pickup?</label>
+                            <div>
+                                <input type="radio" id="yes" name="deliver">
+                                <label for="no">Yes</label>
+                                <input type="radio" id="no" name="deliver">
+                                <label for="no">No</label>
+                            </div>
+                        </div>
+                        <div class="form-group location">
+                            <label for="name">Add Your Address</label>
+                            <input type="text" class="form-control form-select-lg mb-3" name="" id="location">
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="form-group">
+                        <input class="btn btn-primary" type="button" id="addToCart" value="Add to Cart">
+                    </div>
+                </div>
+              
+            </div>
+            <div class="displayOrder table-responsive container">
+                <table class="table">
+                    <thead class="table-primary">
+                        <th>Flavor</th>
+                        <th>Size</th>
+                        <th>Crust</th>
+                        <th>Toppings</th>
+                        <th>Quantity</th>
+                        <th id="billPerOrder">Total</th>
+    
+                    </thead>
+                    <tr></tr>
+                    <tbody>
+                    </tbody>
+                </table>
+                <div>
+                    <div class="form-group text-center">
+                        <p id="bill"><span id="result"></span></p>
+                        <p id="bill"> <span id="totalCost"></span></p>
+                    </div>
+                    <div class="form-group text-center">
+                        <input class="btn btn-primary" type="button" id="checkout" value="Proceed to Checkout">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
