@@ -1,5 +1,5 @@
 # Pizzarena
-#### {Pizzarenna is a site where people buy pizza online}, {Date of current version}
+#### {Pizzarenna is a site where people buy pizza online}, {version 1.0 17/9/2021}
 #### By **{List of contributors}**
 ## Description
 {This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
