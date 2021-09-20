@@ -31,4 +31,4 @@ There are currently no known bugs
 Incase of any support or any idea on how the website can be improved kindly email  simonkairu14@gmail.co
 ### License
 MIT
-Copyright (c) {year} **{List of contributors or company name}**
+Copyright (c) {2021} **{List of contributors or company name}**
