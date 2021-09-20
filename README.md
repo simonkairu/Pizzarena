@@ -2,7 +2,8 @@
 #### {Pizzarenna is a site where people buy pizza online}, {version 1.0 17/9/2021}
 #### By **{List of contributors}**
 ## Description
-{This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
+pizzarena is a website meant to sell pizza online.clients can make their order online based on their taste.you can fill in your location and it will be delivered to your destination
+
 ## Setup/Installation Requirements
 * This is a great place
 * to list setup instructions
