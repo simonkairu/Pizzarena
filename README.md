@@ -30,5 +30,5 @@ There are currently no known bugs
 ## Support and contact details
 Incase of any support or any idea on how the website can be improved kindly email  simonkairu14@gmail.co
 ### License
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+MIT
 Copyright (c) {year} **{List of contributors or company name}**
