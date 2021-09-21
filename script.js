@@ -35,7 +35,7 @@ Order.prototype.getTopping = function () {
 Order.prototype.getSize = function () {
 
     var count = $("#topping :selected").length;
-    // alert(count);
+    
 
     if (this.type == 0) {
         if (count === 0) {
@@ -118,7 +118,7 @@ function fullBill() {
     }
 }
 
-//script for the checkout button
+//Start of script for the checkout button
 function checkout() {
     swal({
         title: "Your order has been placed successfully." + "\r\n" + "Thank You for choosing Pizzarena",
@@ -148,7 +148,7 @@ $(document).ready(function () {
         }
     });
 
-    $('#addToCart').click(function () {
+    $('#next').click(function () {
         var type = $('#type option:selected').val();
         var size = $('#size option:selected').val();
         var crust = $('#crust option:selected').val();
@@ -168,14 +168,14 @@ $(document).ready(function () {
             var quantity = parseInt($('#quantity').val());
             var selectedTopping = parseInt($('#topping option:selected').val());
 
-            //create new object
+            //will create new object
             var newOrder = new Order(selectedType, selectedSize, selectedCrust, selectedTopping);
 
             //will calculate price per order
             var pizzaBill = (newOrder.getSize() + newOrder.getCrust() + newOrder.getTopping()) * quantity;
 
             //will append data to table
-            $('.displayOrder').show();
+            $('.ordertable').show();
             $(".table tbody:last").append("<tr>" +
                 "<td>" + $('#type option:selected').text() + "</td>" +
                 "<td>" + $('#size option:selected').text() + "</td>" +
