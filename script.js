@@ -130,15 +130,8 @@ function checkout() {
 }
 
 $(document).ready(function () {
-    //Start of script for the sidebar nav
-   $('.nav_icon').click(function (){
-       $('.sidebar').toggle();
-   })
-   
-   //will hide nav on screen resize
-   $(window). resize(function(){
-       $('.sidebar').hide();
-   })
+    
+  
    
     //will display location field if delivered
     $('.radioBtn').change(function () {
