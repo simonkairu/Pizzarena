@@ -3,7 +3,7 @@
     padding: 3%;
 }
 
-#order {
+#place {
     background: url('images/image13.jpg') no-repeat fixed 100% 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,14 +15,9 @@
     
 }
 
-.orderText {
-    background-color: navy;
-    color: white;
-    padding: 20px;
-}
 
 .form,
-.displayOrder {
+.ordertable{
     padding: 4%;
     box-sizing: border-box;
     margin-top: 20px;
