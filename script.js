@@ -120,8 +120,9 @@ function fullBill() {
 
 //Start of script for the checkout button
 function checkout() {
+    var fNames = document.getElementById("fullname").value;
     swal({
-        title: "Your order has been placed successfully." + "\r\n" + "Thank You for choosing Pizzarena",
+        title: "Hello " + fNames +  " your order has been placed successfully." + "\r\n" + "Thank You for choosing Pizzarena",
         icon: "success",
     }).then((value) => {
         location.reload();
@@ -154,7 +155,7 @@ $(document).ready(function () {
         var crust = $('#crust option:selected').val();
         var quantity = $('#quantity').val();
         var topping = $('#topping option:selected').val();
-        var name = $('#name').val();
+        var name = $('#fullname').val();
 
         //Start of the validation fields
         if (type == '' || size == '' || crust == '' || topping == '' || quantity == '' || name == '') {
