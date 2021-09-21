@@ -31,7 +31,7 @@ There are currently no known bugs
 ## Support and contact details
 Incase of any support or any idea on how the website can be improved kindly email  simonkairu14@gmail.com
 
-
+### [live link](https://simonkairu.github.io/Pizzarena/)
 
 ### License
 MIT
