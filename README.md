@@ -1,6 +1,7 @@
 # Pizzarena
-#### {Pizzarenna is a site where people buy pizza online}, {version 1.0 17/9/2021}
-#### By **{List of contributors}**
+![pizzarena!](images/website1.png)
+#### Pizzarenna is a site where people buy pizza online, version 1.0 17/9/2021
+#### By Simon Kairu
 ## Description
 pizzarena is a website meant to sell pizza online.clients can make their order online based on their taste.you can fill in your location and it will be delivered to your destination
 
@@ -29,6 +30,8 @@ There are currently no known bugs
 6 JQuery
 ## Support and contact details
 Incase of any support or any idea on how the website can be improved kindly email  simonkairu14@gmail.com
+
+
 
 ### License
 MIT
